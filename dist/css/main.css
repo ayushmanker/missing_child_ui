@@ -1,0 +1,410 @@
+#about-container {
+  background: #9b9b9b; }
+
+.about-heading {
+  color: #105be7;
+  text-align: center;
+  padding: 40px; }
+
+.about-content {
+  padding: 0px 20px; }
+
+.about-content p {
+  padding: 20px;
+  text-align: center;
+  background: #e7f58b; }
+
+.about-logo1 img,
+.about-logo2 img {
+  width: 650px;
+  height: 400px; }
+
+.aboutpic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px; }
+
+#law-container {
+  height: 92vh;
+  background: #9b9b9b; }
+
+.law-heading {
+  padding: 40px;
+  color: greenyellow;
+  text-align: center; }
+
+.law-content ul li {
+  list-style: none;
+  padding: 10px; }
+
+.law-content ul li a {
+  text-decoration: none;
+  color: blue; }
+
+.law-content ul li a:hover {
+  color: crimson; }
+
+.law-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center; }
+
+.contact-container {
+  background: url("../img/sunsetlostchild.jpg") no-repeat center center/cover;
+  height: 92vh; }
+
+.contact-heading {
+  text-align: center;
+  color: #f4fc5a;
+  padding: 40px; }
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px; }
+
+.contact-content p {
+  padding: 10px;
+  text-align: left;
+  background: lightskyblue;
+  border-radius: 25px; }
+
+.ch {
+  color: maroon; }
+
+.email:hover {
+  color: darkblue;
+  cursor: pointer; }
+
+#bottomcontent {
+  margin-top: 40px; }
+
+.cover {
+  background: url("../img/childmotherplay.jpg") no-repeat center center/cover;
+  height: 92vh; }
+
+.login-container {
+  padding: 90px;
+  padding-left: 600px; }
+
+.form-content {
+  text-align: center;
+  padding-left: 80px; }
+
+.lh1 {
+  padding: 40px;
+  text-align: right;
+  color: black; }
+
+.login-form input[type='email'],
+.login-form input[type='password'] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+.login-form .btn {
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large; }
+
+.lh2 {
+  padding-top: 40px; }
+
+.login-form .btn:hover {
+  font-weight: bold; }
+
+.register-container {
+  background: url("../img/grpvictory.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black; }
+
+.reg-content {
+  width: 60vh;
+  height: 100vh;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: 1px solid #333; }
+
+#frm input[type='text'],
+#frm input[type='email'],
+#frm input[type='password'],
+#frm textarea {
+  width: 92%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+#frm .btn {
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold; }
+
+.rh {
+  padding-top: 20px; }
+
+#frm {
+  padding-top: 20px; }
+
+#frm .btn:hover {
+  font-size: large; }
+
+#frm label {
+  font-size: medium; }
+
+.cs-container {
+  background: url("../img/complaint.jpg") no-repeat center center/cover;
+  height: 92vh; }
+
+#cs-h1 {
+  padding: 30px;
+  text-align: center; }
+
+#cs-h2 {
+  padding: 5px;
+  text-align: center; }
+
+#cs-form input[type='text'],
+#cs-form input[type='email'],
+#cs-form input[type='password'],
+#cs-form input[type='number'],
+#cs-form textarea {
+  width: 50%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+#cs-form label {
+  background: #fff;
+  color: black;
+  font-size: large;
+  border: 1px solid #000;
+  border-radius: 4px; }
+
+#cs-form .cs-btn {
+  width: 25%;
+  background-color: #4caf50;
+  color: black;
+  padding: 14px 20px;
+  margin: 10px 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold; }
+
+#cs-form .cs-btn:hover {
+  background: blanchedalmond; }
+
+.cs-content {
+  text-align: center; }
+
+.cs-content #name {
+  padding: 0px 2px;
+  padding-bottom: 4px; }
+
+.cs-content #age {
+  padding: 0px 10px;
+  padding-bottom: 4px; }
+
+.cs-content #color {
+  padding: 0px 6px;
+  padding-bottom: 4px; }
+
+.cs-content #height {
+  padding: 0px 1px;
+  padding-bottom: 4px; }
+
+.cs-content #weight {
+  padding: 0px 1px;
+  padding-bottom: 4px; }
+
+.cs-content #pcsa span {
+  padding: 0px 8px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-top: 12px; }
+
+.cs-content #divimg {
+  padding-top: 50px; }
+
+#pcsa {
+  width: 50px;
+  background: #fff;
+  color: black;
+  font-size: large;
+  border: 1px solid #000;
+  border-radius: 4px; }
+
+.csflex {
+  padding-left: 310px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+#cs-form textarea {
+  margin-left: 50px;
+  margin-left: 14px;
+  width: 65%; }
+
+.pl {
+  padding-left: 70px; }
+
+.pr {
+  padding-right: 70px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: 'Piazzolla', serif;
+  line-height: 1.7em;
+  background-color: #fff; }
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh; }
+
+#navbar ul {
+  list-style: none; }
+
+#navbar ul li {
+  float: left; }
+
+#navbar {
+  background: #333;
+  overflow: hidden; }
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center; }
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f5bf8a; }
+
+#navbar #call {
+  color: #fff; }
+
+#icon-phone {
+  padding: 10px;
+  color: #fff;
+  background: #444; }
+
+#navbar #icon-phone:hover {
+  color: greenyellow; }
+
+#showcase {
+  background: url("../img/footstep4child.jpg") no-repeat center center/cover;
+  color: white;
+  height: 92vh; }
+
+.showcase-content {
+  text-align: center;
+  padding-top: 170px; }
+  .showcase-content h1 {
+    margin: 0;
+    line-height: 1.2; }
+  .showcase-content span {
+    color: #fa1313f1; }
+
+.type {
+  text-align: center;
+  padding-top: 1%; }
+
+h2 {
+  color: black;
+  line-height: 1.2; }
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  background: #6d6e70; }
+
+.corner h3 {
+  background: #ec543d; }
+
+.registerlogin h3 {
+  background: #ec9e0e; }
+
+.registerlogin li {
+  list-style: none; }
+
+.registerlogin li a {
+  text-decoration: none;
+  font-size: large; }
+
+.registerlogin li a:hover {
+  color: red; }
+
+.corner ul li {
+  font-size: large; }
+
+.registerlogin,
+.corner {
+  padding: 40px;
+  background: lightskyblue;
+  border-radius: 25px; }
+
+p {
+  border-style: solid;
+  border-width: 5px;
+  border-color: black; }
+
+div .transbox {
+  margin: 60px;
+  opacity: 0.6;
+  padding-top: 35px; }
+
+div .transbox p {
+  padding: 50px;
+  margin: 5%;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  font-size: large; }

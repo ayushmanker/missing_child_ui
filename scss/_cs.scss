@@ -1,0 +1,99 @@
+.cs-container {
+  background: url('../img/complaint.jpg') no-repeat center center/cover;
+  height: 92vh;
+}
+#cs-h1 {
+  padding: 30px;
+  text-align: center;
+}
+#cs-h2 {
+  padding: 5px;
+  text-align: center;
+}
+#cs-form input[type='text'],
+#cs-form input[type='email'],
+#cs-form input[type='password'],
+#cs-form input[type='number'],
+#cs-form textarea {
+  width: 50%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#cs-form label {
+  background: #fff;
+  color: black;
+  font-size: large;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+#cs-form .cs-btn {
+  width: 25%;
+  background-color: #4caf50;
+  color: black;
+  padding: 14px 20px;
+  margin: 10px 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+}
+#cs-form .cs-btn:hover {
+  background: blanchedalmond;
+}
+.cs-content {
+  text-align: center;
+}
+
+.cs-content #name {
+  padding: 0px 2px;
+  padding-bottom: 4px;
+}
+.cs-content #age {
+  padding: 0px 10px;
+  padding-bottom: 4px;
+}
+.cs-content #color {
+  padding: 0px 6px;
+  padding-bottom: 4px;
+}
+.cs-content #height {
+  padding: 0px 1px;
+  padding-bottom: 4px;
+}
+.cs-content #weight {
+  padding: 0px 1px;
+  padding-bottom: 4px;
+}
+.cs-content #pcsa span {
+  padding: 0px 8px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.cs-content #divimg {
+  padding-top: 50px;
+}
+#pcsa {
+  width: 50px;
+  background: #fff;
+  color: black;
+  font-size: large;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.csflex {
+  padding-left: 310px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#cs-form textarea {
+  margin-left: 50px;
+  margin-left: 14px;
+  width: 65%;
+}

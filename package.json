@@ -1,0 +1,14 @@
+{
+  "name": "missing_child",
+  "version": "1.0.0",
+  "description": "Website to find missing child",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ayush Manker",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

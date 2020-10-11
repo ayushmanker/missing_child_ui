@@ -1,0 +1,29 @@
+#law-container {
+  height: 92vh;
+  background: rgb(155, 155, 155);
+}
+.law-heading {
+  padding: 40px;
+  color: greenyellow;
+  text-align: center;
+}
+
+.law-content ul li {
+  list-style: none;
+  padding: 10px;
+}
+.law-content ul li a {
+  text-decoration: none;
+  color: blue;
+}
+.law-content ul li a:hover {
+  color: crimson;
+}
+
+.law-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+}

@@ -1,0 +1,53 @@
+.register-container {
+  background: url('../img/grpvictory.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+.reg-content {
+  width: 60vh;
+  height: 100vh;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: 1px solid #333;
+}
+#frm input[type='text'],
+#frm input[type='email'],
+#frm input[type='password'],
+#frm textarea {
+  width: 92%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#frm .btn {
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+}
+.rh {
+  padding-top: 20px;
+}
+#frm {
+  padding-top: 20px;
+}
+#frm .btn:hover {
+  font-size: large;
+}
+#frm label {
+  font-size: medium;
+}
